@@ -1,0 +1,53 @@
+.container.header-text-container {
+}
+
+body {
+  font-family: Lora,Helvetica Neue,Helvetica,Arial,sans-serif;
+  position: relative;
+  color: rgb(197,194,191);
+  background-color: #000;
+}
+
+.about-heading {
+  margin-bottom: 12px;
+}
+
+@media (min-width:992px) {
+  .content-section {
+    padding-top: 70px;
+    padding-bottom: 200px;
+  }
+}
+
+.content-section {
+  background-image: url("../../assets/img/Supplies-Mobile.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+@media (min-width: 575px) {
+  .content-section {
+    background-image: url("../../assets/img/Supplies.jpg");
+  }
+}
+
+.content-section {
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
+
+.download-section {
+  display: flex;
+}
+
+.download-container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+

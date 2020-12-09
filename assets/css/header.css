@@ -1,0 +1,141 @@
+.masthead {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 675px;
+  padding: 0;
+  height: 675px;
+  color: rgb(197,194,191);
+}
+
+#header-clouds-div {
+  max-width: 1200px;
+  max-height: 675px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#header-clouds {
+  /*max-height: 675px;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+}
+
+.header-back {
+  z-index: 2;
+  position: absolute;
+  background-image: url("../../assets/img/Background-Mobile.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1200px;
+  max-height: 675px;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+  .header-back {
+    background-image: url("../../assets/img/Background.jpg");
+    max-width: 1200px;
+  }
+}
+
+.header-planes {
+  z-index: 2;
+  position: absolute;
+  background-image: url("../../assets/img/Planes-Mobile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1200px;
+  max-height: 675px;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+  .header-planes {
+    background-image: url("../../assets/img/Planes.png");
+    max-width: 1200px;
+  }
+}
+
+.header-front {
+  z-index: 3;
+  position: absolute;
+  background-image: url("../../assets/img/Front-Mobile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 675px;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+  .header-front {
+    background-image: url("../../assets/img/Front.png");
+    max-width: 1200px;
+  }
+}
+
+.header-edgefade {
+  z-index: 4;
+  position: absolute;
+  background-image: url("../../assets/img/EdgeFade.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1200px;
+  max-height: 675px;
+  width: 100%;
+  height: 100%;
+}
+
+.header-text-container {
+  z-index: 10;
+  margin: auto;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text-align {
+  margin: auto;
+}
+
+.header-tov-div {
+  position: absolute;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  max-height: 675px;
+  display: flex;
+  justify-content: center;
+}
+
+.tov-mediaheader-height {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.intro-text {
+  max-width: 560px;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2px;
+}
+
+.header-scroll-down-button {
+  padding: 0px;
+  width: 59px;
+  height: 60px;
+}
+

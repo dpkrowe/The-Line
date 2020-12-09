@@ -1,0 +1,41 @@
+.text-over-video-header {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-over-video-header video {
+  width: 100%;
+}
+
+.tov-mediaheader {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0px;
+}
+
+.tov-mediaheader text {
+  width: 100%;
+  font-family: Biko, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-anchor: middle;
+}
+
+.tov-mediaheader rect {
+  fill: white;
+}
+
+.tov-mediaheader > .tov-mediaheader-rect {
+  -webkit-mask: url(#mediaheadermask);
+  mask: url(#mediaheadermask);
+  fill: black;
+}

@@ -1,0 +1,27 @@
+.tov-mediaheader-height {
+  height: 80px;
+  max-height: 100%;
+}
+
+@media (min-width: 360px) {
+  .tov-mediaheader-height {
+    height: 80px;
+  }
+}
+
+@media (min-width: 700px) {
+  .tov-mediaheader-height {
+    height: 110px;
+  }
+}
+
+@media (min-width: 992px) {
+  .tov-mediaheader-height {
+    height: 130px;
+  }
+}
+
+.tov-mediaheader-text {
+  font-size: 135px;
+}
+

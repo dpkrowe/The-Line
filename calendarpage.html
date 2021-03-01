@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html>
+<style>
+    @media (max-width: 550px) {
+        .big-container {
+            display: none;
+        }
+    }
+
+    @media (min-width: 550px) {
+        .small-container {
+            display: none;
+        }
+    }
+
+    /* Responsive iFrame */
+    .responsive-iframe-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .responsive-iframe-container iframe,
+    .vresponsive-iframe-container object,
+    .vresponsive-iframe-container embed {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+</style>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>The Line! | Home</title>
-    <meta name="description" content="The Line! is the best place for pros and newcomers to collaborate on Hell Let Loose, an online FPS game set in WWII">
+    <meta name="description"
+        content="The Line! is the best place for pros and newcomers to collaborate on Hell Let Loose, an online FPS game set in WWII">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
@@ -26,13 +57,21 @@
 
 <body id="page-top">
     <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#" style="font-family: 'Saira Stencil One', cursive;">The Line!</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="index.html#"
+                style="font-family: 'Saira Stencil One', cursive;">The Line!</a><button data-toggle="collapse"
+                class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i
+                    class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link active nav-button-discord js-scroll-trigger" href="#about"><i class="fab fa-discord"></i>&nbsp;Discord</a></li>
-                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="#contact">contact</a></li>
-					<li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="#contact">Calendar </a></li>
-              </ul>
+                    <li class="nav-item nav-link js-scroll-trigger"><a
+                            class="nav-link active nav-button-discord js-scroll-trigger" href="index.html#about"><i
+                                class="fab fa-discord"></i>&nbsp;Discord</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger"
+                            href="index.html#contact">contact</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger"
+                            href="#contact">Calendar </a></li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -46,38 +85,61 @@
         </div>
         <div class="header-text-container">
             <div class="header-text-align">
-                <h1 class="clip-text clip-text_header clip-text--no-textzone" style="font-family: 'Saira Stencil One', cursive;">The Line</h1>
-                <p class="intro-text" style="font-family: Roboto, sans-serif;padding-right: 10px;padding-left: 10px;">The best place for pros and newcomers to collaborate on Hell Let Loose.</p><a class="btn btn-link btn-circle js-scroll-trigger header-scroll-down-button" role="button" href="#about" style="border-style: none;"><img src="assets/img/HLL%20Officer.png"></a>
+                <h1 class="clip-text clip-text_header clip-text--no-textzone"
+                    style="font-family: 'Saira Stencil One', cursive;">The Line</h1>
+                <p class="intro-text" style="font-family: Roboto, sans-serif;padding-right: 10px;padding-left: 10px;">
+                    The best place for pros and newcomers to collaborate on Hell Let Loose.</p><a
+                    class="btn btn-link btn-circle js-scroll-trigger header-scroll-down-button" role="button"
+                    href="#about" style="border-style: none;"><img src="assets/img/HLL%20Officer.png"></a>
             </div>
         </div>
     </header>
-    <section id="index-spacer" style="height: 300px;background: url(&quot;assets/img/Spacer.jpg&quot;) center no-repeat;"></section>
+    <section id="index-spacer"
+        style="height: 300px;background: url(&quot;assets/img/Spacer.jpg&quot;) center no-repeat;"></section>
     <section id="about" class="content-section text-center" style="height: 675px;">
         <div class="tov-mediaheader-height">
-            <header class="text-center d-flex d-md-flex justify-content-center justify-content-md-center text-over-video-header tov-mediaheader-height" style="width: 100%;"><video class="text-over-video-video tov-mediaheader-height" autoplay="" loop="" muted="" width="960px" style="background: #545454;max-width: 960px;">
+            <header
+                class="text-center d-flex d-md-flex justify-content-center justify-content-md-center text-over-video-header tov-mediaheader-height"
+                style="width: 100%;"><video class="text-over-video-video tov-mediaheader-height" autoplay="" loop=""
+                    muted="" width="960px" style="background: #545454;max-width: 960px;">
                     <source src="Headervideo1.mp4" type="video/mp4">
-                </video><svg class="tov-mediaheader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" preserveAspectRatio="xMidYMid slice">
-    <defs>
-    <mask id="mediaheadermask" x="0" y="0" width="100%" height="100%" >
-        <rect x="0" y="0" width="100%" height="100%" />
-        <text id="media-header-text" class="tov-mediaheader-text" x="50%" y="88%">THE LINE</text>
-      </mask>
-  </defs>
- <rect class="tov-mediaheader-rect" x="0" y="0" width="100%" height="100%" />
-</svg></header>
-			<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=Zm5tOWljZWI3ZTY1dHUzZDZiNmRwaTdkMWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%234285F4&amp;showTabs=0&amp;showTitle=0" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    <footer>
-        <div class="container text-center">
-            <p>Copyright ©&nbsp;The Line!&nbsp;2020<br>Created by David Rowe and Sam Grogan</p>
-        </div>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/grayscale.js"></script>
-    <script src="assets/js/header.js"></script>
-    <script src="assets/js/Smooth-Scrollto-button-read-Description-1.js"></script>
-    <script src="assets/js/Smooth-Scrollto-button-read-Description.js"></script>
+                </video><svg class="tov-mediaheader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130"
+                    preserveAspectRatio="xMidYMid slice">
+                    <defs>
+                        <mask id="mediaheadermask" x="0" y="0" width="100%" height="100%">
+                            <rect x="0" y="0" width="100%" height="100%" />
+                            <text id="media-header-text" class="tov-mediaheader-text" x="50%" y="88%">THE LINE</text>
+                        </mask>
+                    </defs>
+                    <rect class="tov-mediaheader-rect" x="0" y="0" width="100%" height="100%" />
+                </svg></header>
+            <div>
+                <div class="responsive-iframe-container small-container">
+                    <iframe
+                        src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=Zm5tOWljZWI3ZTY1dHUzZDZiNmRwaTdkMWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%234285F4&amp;showTabs=0&amp;mode=AGENDA&amp;showTitle=0;mode=AGENDA"
+                        style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div class="responsive-iframe-container big-container">
+                    <iframe
+                        src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=Zm5tOWljZWI3ZTY1dHUzZDZiNmRwaTdkMWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%234285F4&amp;showTabs=0&amp;showTitle=0"
+                        style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+            <footer>
+                <div class="container text-center">
+                    <p>Copyright ©&nbsp;The Line!&nbsp;
+                        <script>document.write(new Date().getFullYear())</script><br>Created by David Rowe and Sam
+                        Grogan
+                    </p>
+                </div>
+            </footer>
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+            <script src="assets/js/grayscale.js"></script>
+            <script src="assets/js/header.js"></script>
+            <script src="assets/js/Smooth-Scrollto-button-read-Description-1.js"></script>
+            <script src="assets/js/Smooth-Scrollto-button-read-Description.js"></script>
 </body>
 
 </html>
